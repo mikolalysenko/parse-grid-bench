@@ -1,6 +1,6 @@
 {
   "name": "parse-grid-bench",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses grid path finding benchmark data",
   "main": "index.js",
   "directories": {
