@@ -21,7 +21,7 @@ function parseScenario(str) {
   }
   var cases = new Array(lines.length-1)
   for(var i=1; i<lines.length; ++i) {
-    var tok = lines[i].split(' ')
+    var tok = lines[i].split(/\s+/)
     cases[i-1] = new Scenario(
       tok[0]|0,
       tok[1],

@@ -29,7 +29,7 @@ function parseTerrain(str) {
   }
 
   var data = new Uint8Array(h*w)
-  var result = ndarray(data, [w, h])
+  var result = ndarray(data, [h, w])
   for(var i=0; i<h; ++i) {
     var l = lines[i+4]
     if(l.length !== w) {
